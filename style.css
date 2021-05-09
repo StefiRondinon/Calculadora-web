@@ -1,0 +1,64 @@
+body {
+    /* background-color: #06A6D7; */
+    background: linear-gradient(#06A6D7, #000 );
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.calculadora {
+    border: 1px solid #fff;
+    max-width: 290px;
+    margin: auto;
+    margin-top: 10%;
+    background: linear-gradient(#06A6D7);
+    border-radius: 4%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+    justify-content: center;    
+    gap: 6px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}  
+
+
+#respuestas {
+    width: 220px;
+    height: 40px;
+    margin: 20px 35px 8px;
+    background-color: black;
+    opacity: 1; 
+    color: #fff;
+    font-size: 1.6em;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.button:hover {
+    background-color: #06a6d77b;
+}
+
+.sumar, .restar, .dividir, .multiplicar, .borrar, .igual {
+    border: 1px solid #086682;
+    background-color: #012132bf;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.sumar:hover, .restar:hover, .dividir:hover, .multiplicar:hover, .borrar:hover, .igual:hover {
+    background-color: #06a6d77b;
+
+}
